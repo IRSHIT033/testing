@@ -24,7 +24,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "add test"
+          echo "add test" && error send error }{
           
   deploy:
       runs-on: ubuntu-latest
